@@ -1,13 +1,12 @@
 #include<iostream>
-#include "Square.h"
+#include "Customer.h";
 
 
 void main() {
-	Square q1(4, 5, 5);
-	cout << q1.calculateS() << endl;
-	cout << q1.isIn(5, 6) << endl;
 	
-	Square q2(8, 9, 5);
-	cout << q2.calculateS();
+	char name[] = "dfdfdfd";
+	Customer s(name, 100);
+	Customer s1(name, 100);
+
 
 }
